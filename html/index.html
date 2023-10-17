@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>Accueil - Maghreb & Fun</title>
-    <link href="style/style.css" rel="stylesheet" />
-    <link href="style/index.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,62 +19,76 @@
     <header>
       <nav>
         <a href="index.html" class="lien-icone">
-          <img src="images/logoM.png" alt="Logo Maghreb & Fun" />
+          <img src="../images/logoM.png" alt="Logo Maghreb & Fun" />
         </a>
         <div>
           <a href="index.html">Accueil</a>
-          <a href="a-propos.html">À propos</a>
-          <a href="portfolio.html">Portfolio</a>
+          <a href="#">Algérie</a>
+          <a href="#">Maroc</a>
+          <a href="#">Mauritanie</a>
+          <a href="#">Tunisie</a>
+          <a href="#">Libye</a>
         </div>
       </nav>
     </header>
     <main>
+      <section class="banniereDyn">
+        <img src="../images/image1.jpg" alt="image1" id="img1" />
+      </section>
       <section class="accueil-introduction">
         <div>
           <h1>Bla bla bla</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Perspiciatis culpa et dicta consectetur earum, accusamus adipisci
-            quibusdam, aperiam officiis ex veritatis, minus delectus at
-            consequuntur nemo explicabo accusantium cum incidunt! Placeat
-            voluptas quis omnis aspernatur error nobis laboriosam voluptatem
-            sint vitae perspiciatis et exercitationem, magnam iure itaque labore
-            sunt doloribus suscipit nulla fugit voluptate nihil molestiae
-            reiciendis atque. Aperiam, culpa!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            placeat, quas dolore in quia officia perferendis itaque eaque maxime
+            ea pariatur ex nulla aliquam velit doloribus harum, possimus eos
+            natus?
           </p>
-          <a href="#contact" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+          <a href="#contact" class="cta">Appuyez</a>
         </div>
-        <img src="images/desert.jpg" alt="jolie photo" />
+        <img src="../images/desert.jpg" alt="jolie photo" />
       </section>
+
       <section class="accueil-photos">
-        <h2>Mon dernier projet</h2>
+        <h2>Bla Bla</h2>
         <div>
-          <img
-            src="images/accueil/element-1.png"
-            alt="Twelve apostles - Australie"
-          />
-          <img
-            src="images/accueil/element-2.png"
-            alt="Wai-O-Tapu - Nouvelle-Zélande"
-          />
-          <img
-            src="images/accueil/element-3.png"
-            alt="Parc National d’Abel Tasman - Nouvelle-Zélande"
-          />
+          <div class="image-container">
+            <img
+              src="../images/algerie.jpg"
+              alt="Twelve apostles - Australie"
+            />
+            <div class="image-text">Texte pour l'image 1</div>
+          </div>
+          <div class="image-container">
+            <img
+              src="../images/maroc.jpg"
+              alt="Wai-O-Tapu - Nouvelle-Zélande"
+            />
+            <div class="image-text">Texte pour l'image 2</div>
+          </div>
+          <div class="image-container">
+            <img
+              src="../images/mauritanie.jpg"
+              alt="Parc National d’Abel Tasman - Nouvelle-Zélande"
+            />
+            <div class="image-text">Texte pour l'image 3</div>
+          </div>
         </div>
         <div>
-          <img
-            src="images/accueil/element-4.png"
-            alt="Lac Rotorua - Nouvelle-Zélande"
-          />
-          <img
-            src="images/accueil/element-5.png"
-            alt="Milford Sound - Nouvelle-Zélande"
-          />
-          <img
-            src="images/accueil/element-6.png"
-            alt="Lac Wanaka - Nouvelle-Zélande"
-          />
+          <div class="image-container">
+            <img
+              src="../images/liban.jpg"
+              alt="Lac Rotorua - Nouvelle-Zélande"
+            />
+            <div class="image-text">Texte pour l'image 4</div>
+          </div>
+          <div class="image-container">
+            <img
+              src="../images/tunisie.jpg"
+              alt="Milford Sound - Nouvelle-Zélande"
+            />
+            <div class="image-text">Texte pour l'image 5</div>
+          </div>
         </div>
       </section>
       <section id="contact" class="section-contact">
@@ -94,18 +110,19 @@
         </form>
       </section>
     </main>
+    <script src="../script.js"></script>
     <footer>
       <figure class="logoM">
         <a href="index.html" class="lien-icone">
-          <img src="images/logoMi.png" alt="Logo Maghreb & Fun" />
+          <img src="../images/logoMi.png" alt="Logo Maghreb & Fun" />
         </a>
       </figure>
       <div>
         <a target="_blank" href="https://twitter.com/" class="lien-icone">
-          <img src="images/twitter.png" alt="Logo Twitter" />
+          <img src="../images/twitter.png" alt="Logo Twitter" />
         </a>
         <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
-          <img src="images/instagram.png" alt="Logo Instagram" />
+          <img src="../images/instagram.png" alt="Logo Instagram" />
         </a>
       </div>
     </footer>
