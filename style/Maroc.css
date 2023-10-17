@@ -1,0 +1,59 @@
+.hautPage{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    font: bold;
+    font-family: cursive;
+}
+
+.hidden{
+    visibility: hidden;
+}
+.cuisine{
+    padding: 50px;
+    border: 1px solid;
+    width: 600px;
+    margin: auto;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 150px;
+    background-color: linear-gradient(#A77575);
+    font-size: larger;
+
+
+}
+
+.pastilla{
+    margin-left: 150px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 35%;
+    width: 150px;
+    height: 200px;
+    
+}
+
+.rfissa{
+    margin-left: 50px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 35%;
+    width: 200px;
+    height: 200px;
+}
+
+.tajine{
+    margin-left: 50px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 35%;
+    width: 200px;
+    height: 200px;
+}
+
+.couscous{
+    margin-left: 50px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 35%;
+    width: 200px;
+    height: 200px;
+    
+
+}
