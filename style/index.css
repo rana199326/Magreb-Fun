@@ -40,7 +40,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  color: red;
+  color: rgb(73, 72, 72);
   padding: 10px;
   transition: opacity 0.3s;
 }
@@ -56,6 +56,7 @@
 .accueil-photos .image-container .image-text:hover { 
   opacity: 0.5;
 }
+
 .accueil-introduction {
   display: flex;
   flex-direction: row;
@@ -72,18 +73,22 @@
   margin-bottom: 30px;
 }
 
-.accueil-introduction div {
-  padding-right: 80px;
+.accueil-introduction .texte {
+  flex: 1;
+  padding-right: 30px; 
 }
 
 .accueil-introduction img {
   max-width: 500px;
   max-height: 500px;
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
 }
 
+
 .section-contact h2 {
-  color: black;
+  color: white;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -147,6 +152,7 @@ nav img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+  border-radius: 5px;
   /*animation: fade 5s infinite;*/
 }
 
@@ -164,6 +170,13 @@ nav img {
       opacity: 0;
   }
 }
+
+article {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+
 
 
 

@@ -41,7 +41,7 @@ em {
 
 h1 {
 
-  font-size: 3.5em;
+  font-size: 2em;
 
   color: white;
 
@@ -49,16 +49,11 @@ h1 {
 
 }
 
- 
+
 
 h2 {
-
-  color: black;
-
+  color:white
 }
-
-
-
  
 
 p,
@@ -165,7 +160,14 @@ nav a {
 
 }
 
- 
+.texte { 
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  
+}
 
 @media screen and (max-width: 996px) {
 

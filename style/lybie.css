@@ -1,0 +1,144 @@
+.accueil-photos {
+    text-align: center;
+    background-color: white;
+    padding: 80px;
+  }
+  
+  .accueil-photos h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #242424;
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  
+  .accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .accueil-photos img {
+    width: 500px;
+    height: 500px;
+    max-width: 100%; 
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .accueil-photos .image-container {
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  .accueil-photos .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: rgb(73, 72, 72);
+    padding: 10px;
+    transition: opacity 0.3s;
+  }
+  
+  .accueil-photos .image-container:hover .image-text {
+    opacity: 0.5;
+  }
+  
+  .accueil-photos img:hover {
+    opacity: 0.5;
+  }
+  
+  .accueil-photos .image-container .image-text:hover { 
+    opacity: 0.5;
+  }
+
+  nav img { 
+    width: 25%;
+  }
+
+  header,
+
+footer {
+
+  background-color: white;
+
+  padding: 20px 50px;
+
+}
+
+footer,
+
+nav {
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+}
+
+ 
+
+nav a {
+
+  margin-left: 30px;
+
+}
+
+.artCuli h1 {
+    text-align: center;
+}
+
+.artCuli h3 {
+    padding-left: 20px;
+}
+
+.artCuli p {
+    text-align: justify;
+    padding: 5px;
+}
+
+@media screen and (max-width: 996px) {
+    .accueil-introduction {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .accueil-introduction div {
+      padding-right: 0;
+      text-align: center;
+      order: 2;
+    }
+  
+    .accueil-introduction img {
+      order: 1;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  
+    .accueil-photos {
+      padding: 20px;
+    }
+  
+    .accueil-photos div {
+      flex-direction: column;
+    }
+  
+    .section-contact {
+      padding: 50px 20px;
+    }
+  
+    .form-nom-email {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
