@@ -13,7 +13,11 @@ body {
 
   font-size: 1em;
 
-  background-color: #E7690C
+  background-color: #5560b5;
+
+  overflow-x: hidden;
+  
+
 
 }
 
@@ -68,7 +72,19 @@ li {
 
  
 
-header,
+header {
+
+  background-color: white;
+
+  padding: 20px 50px;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+}
 
 footer {
 
@@ -77,8 +93,6 @@ footer {
   padding: 20px 50px;
 
 }
-
- 
 
 .cta {
 
@@ -128,15 +142,11 @@ a:hover {
 
 }
 
- 
-
 section {
 
-  padding: 80px;
+  padding: 40px;
 
 }
-
- 
 
 footer,
 
@@ -211,7 +221,7 @@ nav a {
 
   section {
 
-    padding: 50px 20px 50px 20px;
+    padding: 50px 10px 50px 10px;
 
   }
 
