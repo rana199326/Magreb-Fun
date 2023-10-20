@@ -3,6 +3,8 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
+    max-width: 100%;
+    
 }
 
 .hautPage{
@@ -16,9 +18,12 @@ body {
 .hidden{
     visibility: hidden;
 }
+
+
+
 .cuisine{
     padding: 50px;
-    width: 600px;
+    width: 40%;
     margin: auto;
     font-family: cursive;
     text-align: center;
@@ -27,56 +32,55 @@ body {
     background: linear-gradient( #fdd873 ,#f4cece, #ffff);
     
     
-
-
 }
 
 .pastilla{
-    margin-left: 100px;
+    
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 150px;
+    width: 10%;
     height: 200px;
     
 }
 
 .rfissa{
-    margin-left: 50px;
+    
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 200px;
+    width: 15%;
     height: 200px;
 }
 
 .tajine{
-    margin-left: 50px;
+    
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 200px;
+    width: 15%;
     height: 200px;
 }
 
 .couscous{
-    margin-left: 50px;
+    
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 200px;
+    width: 15%;
     height: 200px;
     
 }
 
 .pastilla1 {
-    margin-left: 50px;
+    
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 150px;
+    width: 10%;
     height: 200px;
 
 }
  
+
 .cuisine2 {
     padding: 50px;
-    width: 600px;
+    width: 45%;
     font-family: cursive;
     text-align: center;
     border-radius: 150px;
@@ -89,7 +93,7 @@ body {
 .the {
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 350px;
+    width: 25%;
     height: 500px;
     margin: 50px;
     float: right;
@@ -101,16 +105,16 @@ body {
     margin-left: 100px;
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 250px;
+    width: 20%;
     height: 200px;
 
 }
 
 .epices1 {
-    margin-left: 100px;
+    margin-left: 150px;
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 250px;
+    width: 20%;
     height: 200px;
 }
 
@@ -118,14 +122,15 @@ body {
     margin-left: 50px;
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 400px;
+    width: 30%;
     height: 300px;
     float: left;
+    
     
 }
 .cuisine3 {
     padding: 50px;
-    width: 600px;
+    width: 45%;
     margin: auto;
     font-family: cursive;
     text-align: center;
@@ -134,4 +139,8 @@ body {
     background: linear-gradient( #fdd873 ,#f4cece, #ffff);
     float: right;
 
+}
+.image{
+    display: flex;
+    justify-content: space-around;
 }
