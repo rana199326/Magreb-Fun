@@ -1,0 +1,66 @@
+body {
+    background-image: url("../Pictures/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.hautPage{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     font: bold;
+     font-family: cursive;
+     font-size: 30px;
+ }
+ 
+ .hidden{
+     visibility: hidden;
+ }
+ .litt{
+    padding: 50px;
+    width: 70%;
+    margin: auto;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+
+ }
+ .litt2{
+    padding: 50px;
+    margin-top: 50px;
+    width: 40%;
+    float: right;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+
+ }
+ .bib{
+    width: 50%;
+    height: auto;
+    float: left;
+    border-radius: 35%;
+
+ }
+ .litt3{
+    padding: 100px;
+    margin-top: 50px;
+    width: 40%;
+  float: left;
+  font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+
+ }
+.vid{
+    width: 40%;
+    height: 345px;
+    float: right;
+
+ }
