@@ -1,0 +1,43 @@
+body {
+    background-image: url("../Pictures/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    
+}
+
+.hautPage{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    font: bold;
+    font-family: cursive;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+   
+    flex-direction: column;
+    padding: 5%;
+    width: 40%;
+
+    
+}
+.img{
+    border-radius: 5%;
+    width: 100%;
+    
+}
+
+.imgtext{
+    display: flex;
+}

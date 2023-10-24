@@ -1,0 +1,135 @@
+body {
+    background-image: url("../Pictures/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.hautPage{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     font: bold;
+     font-family: cursive;
+     font-size: 30px;
+ }
+ 
+ .hidden{
+     visibility: hidden;
+ }
+ 
+ .cuisine{
+     padding: 50px;
+     /* border: 1px solid; */
+     width: 600px;
+     margin: auto;
+     font-family: cursive;
+     font-size: 30px;
+     text-align: center;
+     border-radius: 150px;
+     background: linear-gradient( #fdd873 ,#f4cece, #ffff);
+
+ 
+ }
+ 
+ .pastilla{
+     margin-left: 50px;
+     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+     border-radius: 35%;
+     width:15%;
+     height: 200px;
+     
+ }
+
+ .pastilla1{
+    margin-left: 100px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 35%;
+    width: 15%;
+    height: 20%;
+    
+}
+ 
+ .rfissa{
+     margin-left: 50px;
+     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+     border-radius: 35%;
+     width: 15%;
+     height: 200px;
+ }
+ 
+ .tajine{
+     margin-left: 50px;
+     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+     border-radius: 35%;
+     width: 15%;
+     height: 200px;
+ }
+ 
+ .couscous{
+     margin-left: 50px;
+     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+     border-radius: 35%;
+     width: 15%;
+     height: 200px;
+ }
+ .cuisine2{
+    padding: 50px;
+    /* border: 1px solid; */
+    width: 600px;
+    float: left;  
+    margin: 80px;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background: linear-gradient( #fdd873 ,#f4cece, #ffff);
+  
+}
+.the{
+    /* margin-left: 200px; */
+    float: right ;
+    margin:60px;
+     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+     border-radius: 35%;
+     width: 350px;
+     height: 500px;
+}
+
+.patisserie {
+    margin-left: 100px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 35%;
+    width: 250px;
+    height: 200px;
+
+}
+
+.epices1 {
+    margin-left: 100px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 35%;
+    width: 250px;
+    height: 200px;
+}
+
+.epices2 {
+    margin-left: 50px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 35%;
+    width: 400px;
+    height: 300px;
+    float: left;
+    
+}
+.cuisine3 {
+    padding: 50px;
+    width: 600px;
+    margin: auto;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background: linear-gradient( #fdd873 ,#f4cece, #ffff);
+    float: right;
+
+}

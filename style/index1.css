@@ -1,0 +1,218 @@
+.accueil-photos {
+    text-align: center;
+    background-color: white;
+    padding: 80px;
+  }
+  
+  .accueil-photos h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #242424;
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  
+  .accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .accueil-photos img {
+    width: 500px;
+    height: 500px;
+    max-width: 100%; 
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .accueil-photos .image-container {
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  .accueil-photos .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: rgb(73, 72, 72);
+    padding: 10px;
+    transition: opacity 0.3s;
+  }
+  
+  .accueil-photos .image-container:hover .image-text {
+    opacity: 0.5;
+  }
+  
+  .accueil-photos img:hover {
+    opacity: 0.5;
+  }
+  
+  .accueil-photos .image-container .image-text:hover { 
+    opacity: 0.5;
+  }
+  
+  .accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    align-items: flex-start;
+    margin: auto;
+  }
+  
+  .accueil-introduction h1 {
+    margin-bottom: 15px;
+  }
+  
+  .accueil-introduction p {
+    margin-bottom: 30px;
+  }
+  
+  .accueil-introduction .texte {
+    flex: 1;
+    padding-right: 30px; 
+  }
+  
+  .accueil-introduction img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .section-contact h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+  
+  }
+  
+  .form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  nav img { 
+    width: 25%;
+  }
+  
+  
+  .banniereDyn {
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 1423px; 
+    height: 500px;
+    background-color: white;
+  
+  }
+  
+  .banniereDyn img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    /*animation: fade 5s infinite;*/
+  }
+  
+  @keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+  
+  article {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 996px) {
+    .accueil-introduction {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .accueil-introduction div {
+      padding-right: 0;
+      text-align: center;
+      order: 2;
+    }
+  
+    .accueil-introduction img {
+      order: 1;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  
+    .accueil-photos {
+      padding: 20px;
+    }
+  
+    .accueil-photos div {
+      flex-direction: column;
+    }
+  
+    .section-contact {
+      padding: 50px 20px;
+    }
+  
+    .form-nom-email {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
