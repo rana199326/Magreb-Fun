@@ -1,0 +1,75 @@
+body {
+    background-image: url("../Pictures/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.hautPage{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     font: bold;
+     font-family: cursive;
+     font-size: 30px;
+ }
+ 
+ .hidden{
+     visibility: hidden;
+ }
+ .arch{
+    width: 100%;
+    margin: auto;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    /* background-color:rgba(255, 246, 234, 0.71); */
+ }
+ 
+ /* .archimg1{
+    width: 20%;
+    height: 400px;
+    margin: 10px;
+    margin-inline-start: 50px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px ; */
+ 
+ figure {
+    float:left;
+    /* border: thin #080707 solid; */
+    display: flex;
+    flex-flow: column;
+    padding: 3px;
+    width:40%;
+    margin: auto;
+  }
+  .imgs{
+    width: 90%;
+    height: 400px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px ;
+    display: block;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: #5c5508;
+    color: #fff;
+    font: italic smaller sans-serif;
+    font-size: medium;
+    padding: 3px;
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  @media screen and (max-width: 500px) {
+    figure {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    figure {
+      width: 24.33%;
+    }
+  }
