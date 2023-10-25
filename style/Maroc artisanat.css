@@ -25,10 +25,8 @@ h1{
 
 section{
     display: flex;
-   
     flex-direction: column;
     padding: 5%;
-    width: 40%;
 
     
 }
@@ -40,4 +38,24 @@ section{
 
 .imgtext{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:10px ;
+}
+
+.imgtext div{
+    width: 40%;
+    font-family: cursive;
+    font-size:x-large
+}
+
+.img1{
+    width: 40%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#img3 {
+    margin-right: 10%;
 }
