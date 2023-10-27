@@ -1,0 +1,81 @@
+body {
+    background-image: url("../Pictures/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.hautPage{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     font: bold;
+     font-family: cursive;
+     font-size: 30px;
+ }
+ 
+ .hidden{
+     visibility: hidden;
+ }
+ .theatre{
+    padding: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+
+ }
+ .theatre2{
+    padding: 50px;
+    margin-top: 20px;
+    width: 100%;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+ }
+ .theatre21{
+    padding: 30px;
+    width: 40%;
+    height: 500px;
+    float: left;
+  
+}
+ .img1{
+    width: 40%;
+    height: 500px;
+    float: right;
+    border-radius: 35%;
+
+ }
+ .theatre3{
+    padding: 90px;
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 40%;
+  float: right;
+  font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+
+ }
+.img2{
+    width:40%;
+    height: 500px;
+    float: left;
+    border-radius: 35%;
+
+ }
+ @media screen and (max-width: 500px) {
+   div {
+      width: 100%;
+    }
+}
