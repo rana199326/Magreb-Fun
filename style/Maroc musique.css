@@ -1,0 +1,139 @@
+body {
+    background-image: url("../Pictures/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.hautPage{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     font: bold;
+     font-family: cursive;
+     font-size: 30px;
+ }
+ 
+ .hidden{
+     visibility: hidden;
+ }
+ .music{
+    padding: 30px;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    font-family: cursive;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+
+ }
+ .music2{
+    padding: 10px;
+    width: 60%;
+    font-family: cursive;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+    margin-left: 15%;
+ }
+ 
+
+ .music3{
+    padding: 90px;
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 40%;
+    float: left;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+
+   
+ }
+ .music4{
+   padding: 50px;
+    width: 40%;
+    font-family: cursive;
+    font-size: 28px;
+    text-align: left;
+    border-radius: 150px;
+    background-color:rgba(255, 246, 234, 0.71);
+    margin-right: 5%;
+    
+    
+    
+
+ }
+  .img1{
+
+    height: 450px;
+    margin-right: 5%;
+    width: 100%;
+    border-radius: 25% 0 25% 0;
+
+ }
+.img2{
+  
+    
+    height: 450px;
+    margin-right: 5%;
+    width: 100%;
+    border-radius: 5% 5%;
+    border-radius: 25% 0 25% 0;
+    
+
+ }
+
+ .img3{
+   height: 450px;
+    margin-right: 5%;
+    width: 100%;
+    border-radius: 5% 5%;
+    border-radius: 25% 0 25% 0;
+
+ }
+ 
+ .img4{
+   height: 450px;
+    margin-right: 5%;
+    width: 100%;
+    border-radius: 5% 5%;
+    border-radius: 25% 0 25% 0;
+ }
+
+ .img{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 23%;
+   margin-top: 5%;
+   margin-left: 5%;
+   
+ }
+
+ .video {
+   width: 35%;
+   border-radius: 45px;
+   margin-left: 5%;
+   
+
+ }
+ .last{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 5%;
+ }
+
+
+
+ /* @media screen and (max-width: 500px) {
+  p {
+      width: 100%;
+    }
+  
+} */
