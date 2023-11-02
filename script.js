@@ -28,3 +28,28 @@ function changeImage() {
 
 
 setInterval(changeImage, 10000);
+
+function maps(pays){
+  switch (pays) {
+    case 'maroc':
+      document.getElementById ("mapmaroc").style.display='block' ;
+      break;
+    case 'mauritanie':
+      document.getElementById ("mapmauritanie").style.display = 'block'
+      break;
+    case 'algerie':
+      document.getElementById ("mapalgerie").style.display = 'block'
+      break;
+    case 'tunisie':
+      document.getElementById ("maptunisie").style.display = 'block'
+      break;
+    case 'libye':
+      document.getElementById ("maplibye").style.display = 'block'
+      break;
+  
+    default:
+      document.getElementById ("mapmaroc").style.display = 'none'
+
+      break;
+  }
+}
