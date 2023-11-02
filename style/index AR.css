@@ -13,34 +13,42 @@
   
   .mapmaroc{
     display: none;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
  left: 27.8%;
- top: 157.5%;
+ top: 157.5%; */
   }
   .mapmaroc:hover {
     filter: brightness(0.25);
 }
 .mapmauritanie{
     display: none;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
     left: 29.95%;
-    top: 182.8%;
+    top: 182.8%; */
   } .mapmauritanie:hover {
     filter: brightness(0.25);
 }
   .mapalgerie{
     display: none;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
     left: 36.74%;
-    top:161.95%;
+    top:161.95%; */
   } .mapalgerie:hover {
     filter: brightness(0.25);
 }
   .maptunisie{
     display: none;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
     left: 50.5%;
-    top:161.5%;
+    top:161.5%; */
 
   } .maptunisie:hover {
     filter: brightness(0.25);
@@ -48,13 +56,23 @@
  
   .maplibye{
     display: none;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
     left: 51.28%;
-    top :161.65%;
+    top :161.65%; */
   } .maplibye:hover {
     filter: brightness(0.25);
 }
-  
+
+#nameCounty{
+    text-transform:capitalize ;
+    text-align: center;
+}
+
+#mapbtn{
+    display: none;
+}
  .image-container {
     position: relative;
     overflow: hidden;
