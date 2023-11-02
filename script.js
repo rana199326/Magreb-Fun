@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
   const images = [
-    "../images/image1.jpg",
-    "../images/image2.jpg",
-    "../images/image3.jpg",
+    "../Pictures/tunis.jpg",
+    "../Pictures/jamaalafna.webp",
+    "../Pictures/mauritanie.webp",
 ];
 
 let currentImageIndex = 0;

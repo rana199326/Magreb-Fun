@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Accueil - Maghreb & Fun</title>
+
+    <link rel="stylesheet" href="../style/index new.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="lien-icone">
+                <img src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
+                <figcaption> Maghreb & Fun</figcaption>
+            </a>
+            <div class="navnav">
+                <div>
+                    <a href="index.html">Accueil</a>
+                    <div class="dropdown">
+                        <a href="#"><button class="dropbtn">Algérie</button></a>
+                        <div class="dropdown-content">
+                            <a href="#">Art culinaire</a>
+                            <a href="#">Architecture et monuments</a>
+                            <a href="#">Artisanat</a>
+                        </div>
+                    </div>
+                    <!-- <a href="#">Algérie</a> -->
+                    <div class="dropdown">
+                        <a href="#"><button class="dropbtn">Libye</button></a>
+                        <div class="dropdown-content">
+                            <a href="#">Art culinaire</a>
+                            <a href="#">Architecture et monuments</a>
+                            <a href="#">Artisanat</a>
+                        </div>
+                    </div>
+                    <!-- <a href="#">Libye</a> -->
+                    <div class="dropdown">
+                        <a href="#"><button class="dropbtn">Maroc</button></a>
+                        <div class="dropdown-content">
+                            <a href="Maroc art culinaire.html">Art culinaire</a>
+                            <a href="Maroc ArchiAndmonum.html">Architecture et monuments</a>
+                            <a href="Maroc artisanat.html">Artisanat</a>
+                        </div>
+                    </div>
+                    <!-- <a href="#">Maroc</a> -->
+                    <div class="dropdown">
+                        <a href="#"><button class="dropbtn">Mauritanie</button></a>
+                        <div class="dropdown-content">
+                            <a href="#">Art culinaire</a>
+                            <a href="#">Architecture et monuments</a>
+                            <a href="#">Artisanat</a>
+                        </div>
+                    </div>
+                    <!-- <a href="mauritanie.html">Mauritanie</a> -->
+                    <div class="dropdown">
+                        <a href="#"><button class="dropbtn">Tunisie</button></a>
+                        <div class="dropdown-content">
+                            <a href="#">Art culinaire</a>
+                            <a href="#">Architecture et monuments</a>
+                            <a href="#">Artisanat</a>
+                        </div>
+                    </div>
+                    <!-- <a href="tunisie.html">Tunisie</a> -->
+                </div>
+            </div>
+            <section class="switchy">    
+                <h5 class="fr">Fr</h5>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <h5 class="ar">ع</h5>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <section class="banniereDyn">
+            <img src="../images/image1.jpg" alt="image1" id="img1" />
+        </section>
+        <section class="accueil-introduction">
+            <div class="texte">
+                <h1>Maghreb : Un Voyage Artistique Inoubliable</h1>
+                <p>
+                    Explorez le Maghreb à travers une mosaïque d'arts captivants !
+                    Dansez au rythme envoûtant du raï, dégustez des saveurs épicées de
+                    la cuisine locale, et découvrez l'histoire fascinante de cette
+                    région, où l'art et la culture s'entrelacent pour vous offrir une
+                    expérience de voyage inoubliable.
+                </p>
+                <a href="#contact" class="cta">Appuyez</a>
+            </div>
+            <img src="../images/desert.jpg" alt="jolie photo" />
+        </section>
+
+        <section class="accueil-photos">
+            <div>
+                <div class="image-container">
+                    <img src="../images/algerie.jpg" alt="Twelve apostles - Australie" title="Algérie">
+                    <div class="image-text">Texte pour l'image 1</div>
+                </div>
+                <div class="image-container">
+                    <img src="../images/maroc.jpg" alt="Wai-O-Tapu - Nouvelle-Zélande" />
+                    <div class="image-text">Texte pour l'image 2</div>
+                </div>
+                <div class="image-container">
+                    <a href="mauritanie.html"><img src="../images/mauritanie.jpg"
+                            alt="Parc National d’Abel Tasman - Nouvelle-Zélande" /></a>
+                    <div class="image-text">Mauritanie</div>
+                </div>
+            </div>
+            <div>
+                <div class="image-container">
+                    <img src="../images/liban.jpg" alt="Lac Rotorua - Nouvelle-Zélande" />
+                    <div class="image-text">Texte pour l'image 4</div>
+                </div>
+                <div class="image-container">
+                    <a href="tunisie.html"><img src="../images/tunisie.jpg"
+                            alt="Milford Sound - Nouvelle-Zélande" /></a>
+                    <div class="image-text">Tunisie</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-contact">
+            <h2>Envoyez nous un message</h2>
+            <form method="get" action="">
+                <div class="form-nom-email">
+                    <div class="form-column">
+                        <label for="nom">nom</label>
+                        <input type="text" name="nom" id="nom" />
+                    </div>
+                    <div class="form-column">
+                        <label for="email">email</label>
+                        <input type="e-mail" name="email" id="email" />
+                    </div>
+                </div>
+                <label for="message">message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+                <input type="submit" value="ENVOYER" class="cta" />
+            </form>
+        </section>
+    </main>
+    <script src="../script.js"></script>
+    <footer>
+        <figure class="logoM">
+            <a href="index.html" class="lien-icone">
+                <img src="../images/logoMaghrebe.png" alt="Logo Maghreb & Fun" />
+            </a>
+        </figure>
+        <div>
+            <a target="_blank" href="https://twitter.com/" class="lien-icone">
+                <img src="../images/twitter.png" alt="Logo Twitter" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                <img src="../images/instagram.png" alt="Logo Instagram" />
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
