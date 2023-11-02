@@ -12,6 +12,11 @@
     margin-bottom: 20px; 
   }
   
+  .centrer-texte {
+    display: flex;
+    justify-content:space-around;
+  }
+
   .accueil-photos div {
     display: flex;
     flex-direction: row;
@@ -216,3 +221,43 @@
       gap: 0;
     }
   }
+    #Culinaire {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #CulinaireR1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #Culinaire {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #friands {
+      margin-left: 150px;
+    }
+    .TITRES {
+      display: flex;
+      justify-content: center;
+    }
+    #couscous {
+      display: flex;
+      margin-left: 500px
+      
+    }
+    #tourisme1 {
+      margin-left: 655px;
+    }
+    #tourisme2 {
+      margin-left: 570px;
+    }
+    iframe{
+      display: flex;
+      margin-left: 450px;
+    }
+    #t1 {
+      text-align: center;
+    }
