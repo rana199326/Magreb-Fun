@@ -1,3 +1,4 @@
+
 .accueil-photos {
     background-color: white;
     width: 100%;
@@ -94,9 +95,9 @@
     opacity: 0.5;
   }
   
-   img:hover {
+   /* img:hover {
     opacity: 0.5;
-  }
+  } */
   
    .image-container .image-text:hover { 
     opacity: 0.5;

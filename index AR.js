@@ -11,9 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const images = [
-  "../images/image1.jpg",
-  "../images/image2.jpg",
-  "../images/image3.jpg",
+  "../Pictures/tunis.jpg",
+  "../Pictures/jamaalafna.webp",
+  "../Pictures/mauritanie.webp",
+  
 ];
 
 let currentImageIndex = 0;
@@ -75,4 +76,35 @@ function maps(pays) {
       break;
   }
 
+}
+
+const sliderEl = document.querySelector('.slider');
+const link = document.querySelectorAll('a');
+const titleEl = document.querySelector('.title');
+const descrEl = document.querySelector('.description');
+
+link.forEach(el => {
+    el.addEventListener('click', () => {
+        sliderEl.querySelector('.active').classList.remove('active');
+        el.classList.add('active');
+
+        const attr = el.getAttribute('language');
+
+        titleEl.textContent = data[attr].title;
+        descrEl.textContent = data[attr].description;
+    });
+});
+var data = {
+  "français":
+  {
+      "title": "index new.html"
+    
+
+  },
+  "عربي":
+  {
+      "title": "index AR.html"
+    
+
+  }
 }
