@@ -31,32 +31,32 @@ setInterval(changeImage, 10000);
 
 function maps(pays) {
   switch (pays) {
-    case 'maroc':
+    case 'المغرب':
       document.getElementById("mapmaroc").style.display = 'block';
 
       document.getElementById("map").style.display = 'none';
       document.getElementById("mapbtn").style.display = 'block';
       document.getElementById("nameCounty").innerText = pays;
       break;
-    case 'mauritanie':
+    case 'موريتانيا':
       document.getElementById("mapmauritanie").style.display = 'block'
       document.getElementById("map").style.display = 'none';
       document.getElementById("mapbtn").style.display = 'block';
       document.getElementById("nameCounty").innerText = pays;
       break;
-    case 'algerie':
+    case 'الجزائر':
       document.getElementById("mapalgerie").style.display = 'block'
       document.getElementById("map").style.display = 'none';
       document.getElementById("mapbtn").style.display = 'block';
       document.getElementById("nameCounty").innerText = pays;
       break;
-    case 'tunisie':
+    case 'تونس':
       document.getElementById("maptunisie").style.display = 'block'
       document.getElementById("map").style.display = 'none';
       document.getElementById("mapbtn").style.display = 'block';
       document.getElementById("nameCounty").innerText = pays;
       break;
-    case 'libye':
+    case 'ليبيا':
       document.getElementById("maplibye").style.display = 'block'
       document.getElementById("map").style.display = 'none';
       document.getElementById("mapbtn").style.display = 'block';
