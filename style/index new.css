@@ -3,6 +3,76 @@
     background-color: white;
     padding: 80px;
   }
+  .erea{
+    position: relative;
+  }
+  
+  .map{
+   margin-left: 25%;
+  }
+  
+  .mapmaroc{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+ left: 27.8%;
+ top: 157.5%; */
+  }
+  .mapmaroc:hover {
+    filter: brightness(0.25);
+}
+.mapmauritanie{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+    left: 29.95%;
+    top: 182.8%; */
+  } .mapmauritanie:hover {
+    filter: brightness(0.25);
+}
+  .mapalgerie{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+    left: 36.74%;
+    top:161.95%; */
+  } .mapalgerie:hover {
+    filter: brightness(0.25);
+}
+  .maptunisie{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+    left: 50.5%;
+    top:161.5%; */
+
+  } .maptunisie:hover {
+    filter: brightness(0.25);
+}
+ 
+  .maplibye{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+    left: 51.28%;
+    top :161.65%; */
+  } .maplibye:hover {
+    filter: brightness(0.25);
+}
+
+#nameCounty{
+    text-transform:capitalize ;
+    text-align: center;
+}
+
+#mapbtn{
+    display: none;
+}
   
   .accueil-photos h2 {
     font-size: 24px;
@@ -232,8 +302,7 @@
     cursor: pointer;
     
   }
-  
-  .dropdown {
+    .dropdown {
     position: relative;
     display: inline-block;
   }
@@ -269,75 +338,74 @@
 
 
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 70px;
-    height: 34px;
-    margin-right: 5%;
-  }
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 34px;
   
-  .switch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
   }
-  
+
+  .switch input {
+  display: none;
+  }
+
   .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5560b5;
+  -webkit-transition: .4s;
+  transition: .4s;
   }
-  
+
   .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
   }
-  
+
   input:checked + .slider {
-    background-color: #5560b5;
+      background-color: #5560b5;
   }
-  
+
   input:focus + .slider {
-    box-shadow: 0 0 1px #5560b5;
+  box-shadow: 0 0 1px #2196F3;
   }
-  
+
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
   }
 
-  .switchy {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  /*------ ADDED CSS ---------*/
+  .on {
+  display: none;
   }
 
-.fr {
-    margin-right: 5%;
-}
-/* .ar {
-    margin-left: 8%;
-} */
+  .on, .off {
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+  }
+
+  input:checked + .slider .on {
+  display: block;
+  }
+
+  input:checked + .slider .off {
+  display: none;
+  }
