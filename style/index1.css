@@ -21,6 +21,11 @@
     justify-content:space-around;
   }
 
+  .imgl{
+    height: 500px;
+    width: auto;
+  }
+
   .accueil-photos div {
     display: flex;
     flex-direction: row;
@@ -30,10 +35,9 @@
   }
   
   .accueil-photos img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 350px;
     max-width: 100%; 
-    height: auto;
     transition: transform 0.3s;
   }
   
@@ -43,15 +47,16 @@
     
   }
   
-  .accueil-photos .image-text {
+  .image-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    color: rgb(73, 72, 72);
+    color: rgb(13, 13, 13);
     padding: 10px;
-    transition: opacity 0.3s;
+    transition: opacity 0.2s;
+    font-size: 50px;
   }
   
   .accueil-photos .image-container:hover .image-text {
@@ -232,7 +237,7 @@
     
   }
 
-    #text {
+    .text {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -247,15 +252,13 @@
     }
     #couscous {
       display: flex;
-      margin-left: 500px
+      margin-left: 300px
       
     }
-    #tourisme1 {
-      margin-left: 655px;
-    }
+   
+   
     #tourisme2 {
-      margin-left: 570px;
-    }
+      text-align: center;    }
     iframe{
       display: flex;
       margin-left: 450px;
@@ -264,3 +267,33 @@
       text-align: center;
       color: white;
     }
+
+    /*---------------------------------------------   ALGERIE   ----------------------------------- */
+.image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.image figure{
+  width: 33%;
+}
+
+.image figure img{
+  height: 20em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+}
+
+.desc {
+  display: flex;
+  
+  align-items: center;
+  
+}
+.imgal{
+  width: 80%;
+}

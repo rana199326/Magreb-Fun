@@ -146,44 +146,46 @@
             </div>
     </footer>
     <script>
+
         // const sliderEl = document.querySelector('.slider');
         const link = document.querySelectorAll('.switch');
         const titleEl = document.querySelector('.title');
         const descrEl = document.querySelector('.description');
         const togBtn = document.querySelector('#togBtn');
-
-
+        
+        
         link.forEach(el => {
             el.addEventListener('click', () => {
-                if (togBtn.checked == true) {
-                    document.location.assign('Maroc page accueil AR.html')
-                } else {
-                    document.location.assign('Maroc pagedaccueil.html')
-                }
+              if (togBtn.checked == true) {
+                document.location.assign('Maroc page accueil AR.html')
+              } else {
+                document.location.assign('Maroc pagedaccueil.html')
+              }
                 // sliderEl.querySelector('.active').classList.remove('active');
                 // el.classList.add('active');
-
+        
                 // const attr = el.getAttribute('language');
-
+        
                 titleEl.textContent = data[attr].title;
                 descrEl.textContent = data[attr].description;
             });
         });
-            var data = {
-                "français":
-                {
-                    "title": "Maroc pagedaccueil.html"
-
-
-                },
-                "عربي":
-                {
-                    "title": "Maroc page accueil AR.html"
-
-
-                }
-            }
-    </script>
+        var data = {
+          "français":
+          {
+              "title": "'Maroc pagedaccueil.html"
+            
+        
+          },
+          "عربي":
+          {
+              "title": "Maroc page accueil AR.html"
+            
+        
+          }
+        }
+            </script>
+        
 
 </body>
 

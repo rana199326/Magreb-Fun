@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../style/lybie.css" />
+    <link rel="stylesheet" href="../style/index1.css" />
     <link rel="stylesheet" href="../style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,23 +16,103 @@
   <body>
     <header>
       <nav>
-        <a href="index.html" class="lien-icone">
-          <img src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
-        </a>
-        <div>
-          <a href="index.html">Accueil</a>
-          <a href="#">Algérie</a>
-          <a href="#">Maroc</a>
-          <a href="mauritanie.html">Mauritanie</a>
-          <a href="tunisie.html">Tunisie</a>
-          <a href="#">Libye</a>
-        </div>
+          <a href="index.html" class="lien-icone">
+              <img src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
+              <figcaption> Maghreb & Fun</figcaption>
+          </a>
+          <div class="navnav">
+              <div>
+                  <a href="index.html">Accueil</a>
+                  <div class="dropdown">
+                      <a href="#"><button class="dropbtn">Algérie</button></a>
+                      <div class="dropdown-content">
+                          <a href="#">Art culinaire</a>
+                          <a href="#">Architecture et monuments</a>
+                          <a href="#">Artisanat</a>
+                          <a href="#">Litterature</a>
+                          <a href="#">Musique</a>
+                          <a href="#">Theatre</a>
+  
+                      </div>
+                  </div>
+                  <!-- <a href="#">Algérie</a> -->
+                  <div class="dropdown">
+                      <a href="#"><button class="dropbtn">Libye</button></a>
+                      <div class="dropdown-content">
+                          <a href="#">Art culinaire</a>
+                          <a href="#">Architecture et monuments</a>
+                          <a href="#">Artisanat</a>
+                          <a href="#">Litterature</a>
+                          <a href="#">Musique</a>
+                          <a href="#">Theatre</a>
+  
+                      </div>
+                  </div>
+                  <!-- <a href="#">Libye</a> -->
+                  <div class="dropdown">
+                      <a href="#"><button class="dropbtn">Maroc</button></a>
+                      <div class="dropdown-content">
+                          <a href="Maroc art culinaire.html">Art culinaire</a>
+                          <a href="Maroc ArchiAndmonum.html">Architecture et monuments</a>
+                          <a href="Maroc artisanat.html">Artisanat</a>
+                          <a href="#">Litterature</a>
+                          <a href="#">Musique</a>
+                          <a href="#">Theatre</a>
+  
+                      </div>
+                  </div>
+                  <!-- <a href="#">Maroc</a> -->
+                  <div class="dropdown">
+                      <a href="#"><button class="dropbtn">Mauritanie</button></a>
+                      <div class="dropdown-content">
+                          <a href="#">Art culinaire</a>
+                          <a href="#">Architecture et monuments</a>
+                          <a href="#">Artisanat</a>
+                          <a href="#">Litterature</a>
+                          <a href="#">Musique</a>
+                          <a href="#">Theatre</a>
+  
+                      </div>
+                  </div>
+                  <!-- <a href="mauritanie.html">Mauritanie</a> -->
+                  <div class="dropdown">
+                      <a href="#"><button class="dropbtn">Tunisie</button></a>
+                      <div class="dropdown-content">
+                          <a href="#">Art culinaire</a>
+                          <a href="#">Architecture et monuments</a>
+                          <a href="#">Artisanat</a>
+                          <a href="#">Litterature</a>
+                          <a href="#">Musique</a>
+                          <a href="#">Theatre</a>
+  
+                      </div>
+                  </div>
+                  <!-- <a href="tunisie.html">Tunisie</a> -->
+              </div>
+          </div>
+          <label class="switch">
+              <input type="checkbox" id="togBtn">
+              <div class="slider round">
+               <a href="index new.html"> <span language='Français' class="on">Français</span></a>  
+              <a href="index AR.html"><span language='عربي' class="off">عربي</span></a>
+              </div>
+          </label>
+          <ul class="nav-items">
+  
+          <!-- <section class="switchy">    
+              <h5 class="fr">Fr</h5>
+              <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+              </label>
+              <h5 class="ar">ع</h5>
+          </section> -->
       </nav>
-    </header>
+  </header>
     <section class="accueil-photos">
       <div>
         <div class="image-container">
-          <img src="../images/theatre alge/330px-Theatre_national_Mahieddine_Bachtarzi.jpg" alt="theatre" />
+          <img src="../images/alshakshoka.jpg" alt="theatre" />
           <a href="../html/theatre algerien.html"></a>
           <div class="image-text">Art Culinaire</div>
         </div>
@@ -41,21 +121,55 @@
           <div class="image-text">Littérature</div>
         </div>
         <div class="image-container">
-          <img src="../images/theatre alge/330px-Theatre_national_Mahieddine_Bachtarzi.jpg" alt="thethe" />
-          <div class="image-text">Théâtre</div>
+          <img src="../images/tlmasan.jpg" alt="thethe" />
+          <div class="image-text">Architecture et monuments</div>
         </div>
       </div>
       <div>
         <div class="image-container">
-          <img src="../images/pupu.jpg" alt="pupu" />
-          <div class="image-text">Art Visuel</div>
+          <img src="../images/al7rf.jpg" alt="pupu" />
+          <div class="image-text">Artisanat</div>
         </div>
         <div class="image-container">
-          <img src="../images/mumu.jpg" alt="mumu" />
+          <img src="../images/musique_haouzi.jpg" alt="mumu" />
           <div class="image-text">Musique</div>
         </div>
       </div>
     </section>
+    <section>
+    <h2 class="TITRES">la litterature</h2> <BR></BR>
+    <p>L'Algérie recèle, au sein de son paysage littéraire, de grands noms ayant non seulement marqué la littérature
+        algérienne, mais également le patrimoine littéraire universel dans trois langues : l’arabe, le berbère et le
+        français.</p>
+    <p>voici quelques photos de grands écrivains algeriens</p>
+
+
+    <div class="image">
+        <figure>
+            <img src="../images/mohammed.jpg" alt="" class="imgal">
+            <p>Mohammed Moulessehoul, dit Yasmina Khadra, <br> né le 10 janvier 1955 à Kenadsa dans l'actuelle wilaya de
+                Béchar,est un écrivain algérien.</p>
+        </figure>
+        <figure>
+            <img src="../images/mimouni-rachid.jpg" alt="" class="imgal">
+            <p>Mohamed Mimouni, dit Rachid Mimouni, né le 20 novembre 1945 à Alma,<br> aujourd'hui Boudouaou et mort le
+                12 février 1995 à Paris d'une hépatite aigüe, est un écrivain algérien</p>
+        </figure>
+        <figure>
+            <img src="../images/330px-Kateb_Yacine_Nedjma_authograph.jpg" alt="" class="imgal">
+            <p>Yacine Kateb, dit Kateb Yacine, est un écrivain algérien, né le 2 août 1929 à Zighoud Youcef commune de
+                la willaya de Constantine et mort le 28 octobre 1989 à Grenoble.</p>
+        </figure>
+      </section>
+        
+    </div>
+
+    <p>le roman Nedjma de Kateb Yacine qui est souvent considéré comme une œuvre monumentale et majeure.</p>
+
+    <p>D'autres écrivains connus contribueront à l'émergence de la littérature algérienne parmi lesquels on peut citer
+        Mouloud Feraoun, Moufdi Zakaria, Kaddour M'Hamsadji, Mouloud Mammeri, Frantz Fanon, Jean Amrouche et Assia
+        Djebar.</p>
+
       <footer>
         <figure class="logoM">
           <a href="index.html" class="lien-icone">
