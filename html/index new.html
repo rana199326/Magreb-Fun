@@ -16,13 +16,13 @@
 <body>
     <header>
         <nav>
-            <a href="index.html" class="lien-icone">
+            <a href="index new.html" class="lien-icone">
                 <img src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
                 <figcaption> Maghreb & Fun</figcaption>
             </a>
             <div class="navnav">
                 <div>
-                    <a href="index.html">Accueil</a>
+                    <a href="index new.html">Accueil</a>
                     <div class="dropdown">
                         <a href="#"><button class="dropbtn">Algérie</button></a>
                         <div class="dropdown-content">
@@ -31,7 +31,7 @@
                             <a href="#">Artisanat</a>
                             <a href="#">Litterature</a>
                             <a href="#">Musique</a>
-                            <a href="#">Theatre</a>
+                            <a href="#">Théâtre</a>
 
                         </div>
                     </div>
@@ -50,14 +50,14 @@
                     </div>
                     <!-- <a href="#">Libye</a> -->
                     <div class="dropdown">
-                        <a href="#"><button class="dropbtn">Maroc</button></a>
+                        <a href="Maroc pagedaccueil.html"><button class="dropbtn">Maroc</button></a>
                         <div class="dropdown-content">
                             <a href="Maroc art culinaire.html">Art culinaire</a>
                             <a href="Maroc ArchiAndmonum.html">Architecture et monuments</a>
                             <a href="Maroc artisanat.html">Artisanat</a>
-                            <a href="#">Litterature</a>
-                            <a href="#">Musique</a>
-                            <a href="#">Theatre</a>
+                            <a href="Maroc musique.html">Litterature</a>
+                            <a href="Maroc litterature.html">Musique</a>
+                            <a href="Maorc theatre.html">Theatre</a>
 
                         </div>
                     </div>
@@ -90,28 +90,28 @@
                     <!-- <a href="tunisie.html">Tunisie</a> -->
                 </div>
             </div>
+            <!-- <label class="switch">
+                <input type="checkbox" id="togBtn">
+                <div class="slider round">
+                    <a href="index new.html"> <span language='Français' class="on">Français</span></a>
+                    <a href="index AR.html"><span language='عربي' class="off">عربي</span></a>
+                </div>
+            </label> -->
+            
             <label class="switch">
                 <input type="checkbox" id="togBtn">
                 <div class="slider round">
-                 <a href="index new.html"> <span language='Français' class="on">Français</span></a>  
-                <a href="index AR.html"><span language='عربي' class="off">عربي</span></a>
+                    <span language='Français' class="on">Français</span>
+                    <span language='عربي' class="off">عربي</span>
                 </div>
             </label>
-            <ul class="nav-items">
-
-            <!-- <section class="switchy">    
-                <h5 class="fr">Fr</h5>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                <h5 class="ar">ع</h5>
-            </section> -->
+       
+            
         </nav>
     </header>
     <main>
         <section class="banniereDyn">
-            <img src="../Pictures/ahu.jpg" alt="image1" id="img1" width="60%" height="600px"/>
+            <img src="../Pictures/ahu.jpg" alt="image1" id="img1" width="60%" height="600px" />
         </section>
         <section class="accueil-introduction">
             <div class="texte">
@@ -128,61 +128,35 @@
             <img src="../Pictures/touareg.jpg" alt="jolie photo" />
         </section>
         <section class="accueil-photos">
-            <img usemap="#marocmap" src="../Pictures/map.png" alt="" class = "map" id="map">
-      <map name="marocmap" >
-        <area  shape="poly"
-          coords="234,62,217,75,199,83,173,96,166,110,159,122,142,138,125,143,111,149,92,166,75,187,58,201,46,215,42,225,65,222,79,221,97,218,97,203,114,195,122,167,165,167,174,135,245,112,250,101,276,99,278,67"
-           alt="" title="Maroc" onclick="maps('maroc')">
-        <area shape="poly"
-          coords="44,221,58,220,94,220,100,202,115,196,123,166,166,166,169,152,210,177,191,177,185,277,186,289,133,289,111,293,101,289,92,299,66,277,41,278,34,283"
-           alt="" title="Mauriranie" onclick="maps('Mauriranie')">
-        <area shape="poly"
-          coords= "169,153,210,177,294,233,312,237,317,248,351,245,443,196,438,186,423,182,410,165,416,157,419,144,413,121,410,100,401,92,394,80,405,70,405,53,411,47,384,49,362,51,328,51,279,66,278,98,244,105,257,100,246,111,175,137"
-           alt="" title="Algérie"onclick="maps('algerie')">
-        <area shape="poly"
-          coords=  "415,119,425,114,427,104,445,95,445,88,424,79,440,67,433,57,441,46,433,50,425,44,411,47,406,52,404,69,394,80,402,95,411,99" 
-           alt="" title="Tunisie"onclick="maps('tunisie')">
-        <area shape="poly"
-          coords= "445,89,487,94,496,105,520,110,534,117,555,113,555,101,585,90,598,97,617,100,626,107,622,120,626,132,634,235,620,235,620,242,502,195,476,204,468,199,443,194,438,186,421,182,409,164,416,158,420,146,411,120,425,112,428,102,444,94" 
-           alt="" title="Lybie"onclick="maps('lybie')">
-      </map>
-      <button id="mapbtn" onclick="maps('return')">&#8617</button>
-      <a href="Maroc page accueil AR.html" ><img src="../Pictures/maroc map.png" class="mapmaroc" id="mapmaroc"></a>
-      <a href="PageaccueuilMauritanie.html"><img src="../Pictures/Mauritanie.png" class="mapmauritanie"  id="mapmauritanie"></a>
-      <a href="pageaccueilalgerie.html"><img src="../Pictures/algerie map.png" class="mapalgerie"  id="mapalgerie"></a>
-      <a><img src="../Pictures/Tunisie.png" class="maptunisie"  id="maptunisie"></a>
-      <a href="pageAccueilLibye.html"><img src="../Pictures/libye.png" class="maplibye"  id="maplibye"></a>
-    <h3 id="nameCounty"></h3>
-          </section>
-
-        <!-- <section class="accueil-photos">
-            <div>
-                <div class="image-container">
-                    <img src="../images/algerie.jpg" alt="Twelve apostles - Australie" title="Algérie">
-                    <div class="image-text">Texte pour l'image 1</div>
-                </div>
-                <div class="image-container">
-                    <img src="../images/maroc.jpg" alt="Wai-O-Tapu - Nouvelle-Zélande" />
-                    <div class="image-text">Texte pour l'image 2</div>
-                </div>
-                <div class="image-container">
-                    <a href="mauritanie.html"><img src="../images/mauritanie.jpg"
-                            alt="Parc National d’Abel Tasman - Nouvelle-Zélande" /></a>
-                    <div class="image-text">Mauritanie</div>
-                </div>
-            </div>
-            <div>
-                <div class="image-container">
-                    <img src="../images/liban.jpg" alt="Lac Rotorua - Nouvelle-Zélande" />
-                    <div class="image-text">Texte pour l'image 4</div>
-                </div>
-                <div class="image-container">
-                    <a href="tunisie.html"><img src="../images/tunisie.jpg"
-                            alt="Milford Sound - Nouvelle-Zélande" /></a>
-                    <div class="image-text">Tunisie</div>
-                </div>
-            </div>
-        </section> -->
+            <img usemap="#marocmap" src="../Pictures/map.png" alt="" class="map" id="map">
+            <map name="marocmap">
+                <area shape="poly"
+                    coords="234,62,217,75,199,83,173,96,166,110,159,122,142,138,125,143,111,149,92,166,75,187,58,201,46,215,42,225,65,222,79,221,97,218,97,203,114,195,122,167,165,167,174,135,245,112,250,101,276,99,278,67"
+                    alt="" title="Maroc" onclick="maps('maroc')">
+                <area shape="poly"
+                    coords="44,221,58,220,94,220,100,202,115,196,123,166,166,166,169,152,210,177,191,177,185,277,186,289,133,289,111,293,101,289,92,299,66,277,41,278,34,283"
+                    alt="" title="Mauriranie" onclick="maps('Mauriranie')">
+                <area shape="poly"
+                    coords="169,153,210,177,294,233,312,237,317,248,351,245,443,196,438,186,423,182,410,165,416,157,419,144,413,121,410,100,401,92,394,80,405,70,405,53,411,47,384,49,362,51,328,51,279,66,278,98,244,105,257,100,246,111,175,137"
+                    alt="" title="Algérie" onclick="maps('algerie')">
+                <area shape="poly"
+                    coords="415,119,425,114,427,104,445,95,445,88,424,79,440,67,433,57,441,46,433,50,425,44,411,47,406,52,404,69,394,80,402,95,411,99"
+                    alt="" title="Tunisie" onclick="maps('tunisie')">
+                <area shape="poly"
+                    coords="445,89,487,94,496,105,520,110,534,117,555,113,555,101,585,90,598,97,617,100,626,107,622,120,626,132,634,235,620,235,620,242,502,195,476,204,468,199,443,194,438,186,421,182,409,164,416,158,420,146,411,120,425,112,428,102,444,94"
+                    alt="" title="Lybie" onclick="maps('lybie')">
+            </map>
+            <button id="mapbtn" onclick="maps('return')">&#8617</button>
+            <a href="Maroc page accueil AR.html"><img src="../Pictures/maroc map.png" class="mapmaroc"
+                    id="mapmaroc"></a>
+            <a href="PageaccueuilMauritanie.html"><img src="../Pictures/Mauritanie.png" class="mapmauritanie"
+                    id="mapmauritanie"></a>
+            <a href="pageaccueilalgerie.html"><img src="../Pictures/algerie map.png" class="mapalgerie"
+                    id="mapalgerie"></a>
+            <a><img src="../Pictures/Tunisie.png" class="maptunisie" id="maptunisie"></a>
+            <a href="pageAccueilLibye.html"><img src="../Pictures/libye.png" class="maplibye" id="maplibye"></a>
+            <h3 id="nameCounty"></h3>
+        </section>
 
         <section id="contact" class="section-contact">
             <h2>Envoyez nous un message</h2>
@@ -205,19 +179,17 @@
     </main>
     <script src="../script.js"></script>
     <footer>
-        <figure class="logoM">
-            <a href="index.html" class="lien-icone">
-                <img src="../images/logoMaghrebe.png" alt="Logo Maghreb & Fun" />
-            </a>
-        </figure>
-        <div>
-            <a target="_blank" href="https://twitter.com/" class="lien-icone">
-                <img src="../images/twitter.png" alt="Logo Twitter" />
-            </a>
-            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
-                <img src="../images/instagram.png" alt="Logo Instagram" />
-            </a>
-        </div>
+        <a href="index new.html" class="lien-icone">
+            <img class="imglogo" src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
+            <figcaption class="figcap"> Maghreb & Fun</figcaption>
+            <div>
+                <a target="_blank" href="https://twitter.com/" class="lien-icone">
+                    <img src="../images/twitter.png" alt="Logo Twitter" />
+                </a>
+                <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                    <img src="../images/instagram.png" alt="Logo Instagram" />
+                </a>
+            </div>
     </footer>
 </body>
 

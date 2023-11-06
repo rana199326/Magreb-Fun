@@ -78,17 +78,22 @@ function maps(pays) {
 
 }
 
-const sliderEl = document.querySelector('.slider');
-const link = document.querySelectorAll('a');
+const link = document.querySelectorAll('.switch');
 const titleEl = document.querySelector('.title');
 const descrEl = document.querySelector('.description');
-
+const togBtn = document.querySelector('#togBtn');
+console.log(togBtn.checked);
 link.forEach(el => {
     el.addEventListener('click', () => {
-        sliderEl.querySelector('.active').classList.remove('active');
-        el.classList.add('active');
+      if (togBtn.checked == true) {
+        document.location.assign('index AR.html')
+      } else {
+        document.location.assign('index new.html')
+      }
+        // sliderEl.querySelector('.active').classList.remove('active');
+        // el.classList.add('active');
 
-        const attr = el.getAttribute('language');
+        // const attr = el.getAttribute('language');
 
         titleEl.textContent = data[attr].title;
         descrEl.textContent = data[attr].description;
