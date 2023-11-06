@@ -1,20 +1,69 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const contactLink = document.querySelector('a[href="#contact"]');
+    const cuisineLink = document.querySelector('a[href="#cuisine"]');
   
-    contactLink.addEventListener("click", function (event) {
+    cuisineLink.addEventListener("click", function (event) {
       event.preventDefault(); 
   
-      const contactSection = document.getElementById("contact");
+      const cuisineSection = document.getElementById("cuisine");
   
-      contactSection.scrollIntoView({ behavior: "smooth" });
+      cuisineSection.scrollIntoView({ behavior: "smooth" });
+      
     });
   });
+  
   
   const images = [
     "../images/image1.jpg",
     "../images/image2.jpg",
     "../images/image3.jpg",
 ];
+document.addEventListener("DOMContentLoaded", function () {
+  const theatreLink = document.querySelector('a[href="#theatre"]');
+
+  theatreLink.addEventListener("click", function (event) {
+    event.preventDefault(); 
+
+    const theatreSection = document.getElementById("theatre");
+
+    theatreSection.scrollIntoView({ behavior: "smooth" });
+    
+  });
+});document.addEventListener("DOMContentLoaded", function () {
+  const visuLink = document.querySelector('a[href="#visu"]');
+
+  visuLink.addEventListener("click", function (event) {
+    event.preventDefault(); 
+
+    const visuSection = document.getElementById("visu");
+
+    visuSection.scrollIntoView({ behavior: "smooth" });
+    
+  });
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const livreLink = document.querySelector('a[href="#livre"]');
+
+  livreLink.addEventListener("click", function (event) {
+    event.preventDefault(); 
+
+    const livreSection = document.getElementById("livre");
+
+    livreSection.scrollIntoView({ behavior: "smooth" });
+    
+  });
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const musicaLink = document.querySelector('a[href="#musica"]');
+
+  musicaLink.addEventListener("click", function (event) {
+    event.preventDefault(); 
+
+    const musicaSection = document.getElementById("musica");
+
+    musicaSection.scrollIntoView({ behavior: "smooth" });
+    
+  });
+});
 
 let currentImageIndex = 0;
 const banniereDyn = document.querySelector(".banniereDyn");
@@ -28,3 +77,4 @@ function changeImage() {
 
 
 setInterval(changeImage, 10000);
+
