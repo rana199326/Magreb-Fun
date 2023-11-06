@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Architecture</title>
     <link rel="stylesheet" href="../style/Maroc Archiandmonum.css">
     <link rel="stylesheet" href="../style/index new.css">
 
@@ -209,11 +209,12 @@ const titleEl = document.querySelector('.title');
 const descrEl = document.querySelector('.description');
 const togBtn = document.querySelector('#togBtn');
 
+
 link.forEach(el => {
     el.addEventListener('click', () => {
       if (togBtn.checked == true) {
-      } else {
         document.location.assign('Maroc architecture AR.html')
+      } else {
         document.location.assign('Maroc ArchiAndmonum.html')
       }
         // sliderEl.querySelector('.active').classList.remove('active');

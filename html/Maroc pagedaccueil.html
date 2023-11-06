@@ -92,11 +92,11 @@
             <label class="switch">
                 <input type="checkbox" id="togBtn">
                 <div class="slider round">
-                    <a href="index new.html"> <span language='Français' class="on">Français</span></a>
-                    <a href="index AR.html"><span language='عربي' class="off">عربي</span></a>
+                    <span language='Français' class="on">Français</span>
+                    <span language='عربي' class="off">عربي</span>
                 </div>
             </label>
-            <ul class="nav-items">
+
 
         </nav>
     </header>
@@ -146,38 +146,45 @@
             </div>
     </footer>
     <script>
-        const sliderEl = document.querySelector('.slider');
-        const link = document.querySelectorAll('a');
+        // const sliderEl = document.querySelector('.slider');
+        const link = document.querySelectorAll('.switch');
         const titleEl = document.querySelector('.title');
         const descrEl = document.querySelector('.description');
+        const togBtn = document.querySelector('#togBtn');
+
 
         link.forEach(el => {
             el.addEventListener('click', () => {
-                sliderEl.querySelector('.active').classList.remove('active');
-                el.classList.add('active');
+                if (togBtn.checked == true) {
+                    document.location.assign('Maroc page accueil AR.html')
+                } else {
+                    document.location.assign('Maroc pagedaccueil.html')
+                }
+                // sliderEl.querySelector('.active').classList.remove('active');
+                // el.classList.add('active');
 
-                const attr = el.getAttribute('language');
+                // const attr = el.getAttribute('language');
 
                 titleEl.textContent = data[attr].title;
                 descrEl.textContent = data[attr].description;
             });
         });
-        var data = {
-            "français":
-            {
-                "title": "Maroc pagedaccueil.html"
+            var data = {
+                "français":
+                {
+                    "title": "Maroc pagedaccueil.html"
 
 
-            },
-            "عربي":
-            {
-                "title": "Maroc page accueil AR.html"
+                },
+                "عربي":
+                {
+                    "title": "Maroc page accueil AR.html"
 
 
+                }
             }
-        }
     </script>
- 
+
 </body>
 
 </html>

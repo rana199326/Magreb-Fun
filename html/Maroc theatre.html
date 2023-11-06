@@ -91,11 +91,10 @@
             <label class="switch">
                 <input type="checkbox" id="togBtn">
                 <div class="slider round">
-                    <a href="index new.html"> <span language='Français' class="on">Français</span></a>
-                    <a href="index AR.html"><span language='عربي' class="off">عربي</span></a>
+                    <span language='Français' class="on">Français</span>
+                    <span language='عربي' class="off">عربي</span>
                 </div>
             </label>
-            <ul class="nav-items">
         </nav>
     </header>
     <main class="container">
@@ -161,36 +160,42 @@
             </div>
     </footer>
     <script>
-        const sliderEl = document.querySelector('.slider');
-        const link = document.querySelectorAll('a');
-        const titleEl = document.querySelector('.title');
-        const descrEl = document.querySelector('.description');
+       // const sliderEl = document.querySelector('.slider');
+const link = document.querySelectorAll('.switch');
+const titleEl = document.querySelector('.title');
+const descrEl = document.querySelector('.description');
+const togBtn = document.querySelector('#togBtn');
 
-        link.forEach(el => {
-            el.addEventListener('click', () => {
-                sliderEl.querySelector('.active').classList.remove('active');
-                el.classList.add('active');
+link.forEach(el => {
+    el.addEventListener('click', () => {
+      if (togBtn.checked == true) {
+        document.location.assign('Maroc theatre AR.html')
+      } else {
+        document.location.assign('Maroc theatre.html')
+      }
+        // sliderEl.querySelector('.active').classList.remove('active');
+        // el.classList.add('active');
 
-                const attr = el.getAttribute('language');
+        // const attr = el.getAttribute('language');
 
-                titleEl.textContent = data[attr].title;
-                descrEl.textContent = data[attr].description;
-            });
-        });
-        var data = {
-            "français":
-            {
-                "title": "Maroc theatre.html"
+        titleEl.textContent = data[attr].title;
+        descrEl.textContent = data[attr].description;
+    });
+});
+var data = {
+  "français":
+  {
+      "title": "Maroc theatre.html"
+    
 
+  },
+  "عربي":
+  {
+      "title": "Maroc theatre AR.html"
+    
 
-            },
-            "عربي":
-            {
-                "title": "Maroc theatre AR.html"
-
-
-            }
-        }
+  }
+}
     </script>
 
 </body>

@@ -158,17 +158,55 @@
     
     <footer>
         <a href="index.html" class="lien-icone">
-            <img class="imglogo" src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
-            <figcaption class="figcap"> Maghreb & Fun</figcaption>
-            <div>
-                <a target="_blank" href="https://twitter.com/" class="lien-icone">
-                    <img src="../images/twitter.png" alt="Logo Twitter" />
-                </a>
-                <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
-                    <img src="../images/instagram.png" alt="Logo Instagram" />
-                </a>
-            </div>
-    </footer>
+          <img class="imglogo" src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
+          <figcaption class="figcap"> Maghreb & Fun</figcaption>
+          <div>
+            <a target="_blank" href="https://twitter.com/" class="lien-icone">
+              <img src="../images/twitter.png" alt="Logo Twitter" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+              <img src="../images/instagram.png" alt="Logo Instagram" />
+            </a>
+          </div>
+      </footer>
+      <script>
+        // const sliderEl = document.querySelector('.slider');
+        const link = document.querySelectorAll('.switch');
+        const titleEl = document.querySelector('.title');
+        const descrEl = document.querySelector('.description');
+        const togBtn = document.querySelector('#togBtn');
+    
+        link.forEach(el => {
+          el.addEventListener('click', () => {
+            if (togBtn.checked == true) {
+              document.location.assign('Maroc artisanat AR.html')
+            } else {
+              document.location.assign('Maroc artisanat.html')
+            }
+            // sliderEl.querySelector('.active').classList.remove('active');
+            // el.classList.add('active');
+    
+            // const attr = el.getAttribute('language');
+    
+            titleEl.textContent = data[attr].title;
+            descrEl.textContent = data[attr].description;
+          });
+        });
+        var data = {
+          "français":
+          {
+            "title": "Maroc artisanat.html"
+    
+    
+          },
+          "عربي":
+          {
+            "title": "Maroc artisanat AR.html"
+    
+    
+          }
+        }
+      </script>
 </body>
 
 </html>
