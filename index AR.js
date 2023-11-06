@@ -14,6 +14,7 @@ const images = [
   "../Pictures/tunis.jpg",
   "../Pictures/jamaalafna.webp",
   "../Pictures/mauritanie.webp",
+  "../Pictures/libya.webp",
   
 ];
 

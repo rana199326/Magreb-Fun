@@ -15,19 +15,99 @@
 <body>
   <header>
     <nav>
-      <a href="index.html" class="lien-icone">
-        <img src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
-      </a>
-      <div>
-        <a href="index.html">Accueil</a>
-        <a href="#">Algérie</a>
-        <a href="#">Maroc</a>
-        <a href="mauritanie.html">Mauritanie</a>
-        <a href="tunisie.html">Tunisie</a>
-        <a href="#">Libye</a>
-      </div>
+        <a href="index.html" class="lien-icone">
+            <img src="../images/LogoMaghrebfun.png" alt="Logo Maghreb & Fun" />
+            <figcaption> Maghreb & Fun</figcaption>
+        </a>
+        <div class="navnav">
+            <div>
+                <a href="index.html">Accueil</a>
+                <div class="dropdown">
+                    <a href="#"><button class="dropbtn">Algérie</button></a>
+                    <div class="dropdown-content">
+                        <a href="#">Art culinaire</a>
+                        <a href="#">Architecture et monuments</a>
+                        <a href="#">Artisanat</a>
+                        <a href="#">Litterature</a>
+                        <a href="#">Musique</a>
+                        <a href="#">Theatre</a>
+
+                    </div>
+                </div>
+                <!-- <a href="#">Algérie</a> -->
+                <div class="dropdown">
+                    <a href="#"><button class="dropbtn">Libye</button></a>
+                    <div class="dropdown-content">
+                        <a href="#">Art culinaire</a>
+                        <a href="#">Architecture et monuments</a>
+                        <a href="#">Artisanat</a>
+                        <a href="#">Litterature</a>
+                        <a href="#">Musique</a>
+                        <a href="#">Theatre</a>
+
+                    </div>
+                </div>
+                <!-- <a href="#">Libye</a> -->
+                <div class="dropdown">
+                    <a href="#"><button class="dropbtn">Maroc</button></a>
+                    <div class="dropdown-content">
+                        <a href="Maroc art culinaire.html">Art culinaire</a>
+                        <a href="Maroc ArchiAndmonum.html">Architecture et monuments</a>
+                        <a href="Maroc artisanat.html">Artisanat</a>
+                        <a href="#">Litterature</a>
+                        <a href="#">Musique</a>
+                        <a href="#">Theatre</a>
+
+                    </div>
+                </div>
+                <!-- <a href="#">Maroc</a> -->
+                <div class="dropdown">
+                    <a href="#"><button class="dropbtn">Mauritanie</button></a>
+                    <div class="dropdown-content">
+                        <a href="#">Art culinaire</a>
+                        <a href="#">Architecture et monuments</a>
+                        <a href="#">Artisanat</a>
+                        <a href="#">Litterature</a>
+                        <a href="#">Musique</a>
+                        <a href="#">Theatre</a>
+
+                    </div>
+                </div>
+                <!-- <a href="mauritanie.html">Mauritanie</a> -->
+                <div class="dropdown">
+                    <a href="#"><button class="dropbtn">Tunisie</button></a>
+                    <div class="dropdown-content">
+                        <a href="#">Art culinaire</a>
+                        <a href="#">Architecture et monuments</a>
+                        <a href="#">Artisanat</a>
+                        <a href="#">Litterature</a>
+                        <a href="#">Musique</a>
+                        <a href="#">Theatre</a>
+
+                    </div>
+                </div>
+                <!-- <a href="tunisie.html">Tunisie</a> -->
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="togBtn">
+            <div class="slider round">
+             <a href="index new.html"> <span language='Français' class="on">Français</span></a>  
+            <a href="index AR.html"><span language='عربي' class="off">عربي</span></a>
+            </div>
+        </label>
+        <ul class="nav-items">
+
+        <!-- <section class="switchy">    
+            <h5 class="fr">Fr</h5>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <h5 class="ar">ع</h5>
+        </section> -->
     </nav>
-  </header>
+</header>
   <section class="accueil-photos">
     <div>
       <div class="image-container">
@@ -37,40 +117,44 @@
         </a>
       </div>
       <div class="image-container">
+        <a href="#Litterature">
         <img src="../images/livre2.jpg" alt="livre" />
         <div class="image-text">Littérature</div>
+      </a>
       </div>
       <div class="image-container">
         <a href="#tourisme1">
-        <img src="../images/Accueil Libye/tourisme.jpg" alt="thethe" />
-        <div class="image-text">Tourisme</div>
+        <img src="../images/Accueil Libye/lbdaArch.jpg" alt="thethe" />
+        <div class="image-text">Architecture et Monuments</div>
       </a>
       </div>
     </div>
     <div>
       <div class="image-container">
-        <img src="../images/Accueil Libye/Les_peintures_de_paysages_c_l_bres.jpg" alt="pupu" />
-        <div class="image-text">Art Visuel</div>
+        <img src="../images/Accueil Libye/al7rf libye.jpg" alt="pupu" />
+        <div class="image-text">Artisanat</div>
       </div>
       <div class="image-container">
-        <img src="../images/mumu.jpg" alt="mumu" />
+        <a href="#musique">
+        <img src="../images/Accueil Libye/musiq libye.jpg" alt="mumu" />
         <div class="image-text">Musique</div>
+      </a>
       </div>
     </div>
   </section>
         <!--------------------------------------------------        Art Culinaire       ----------------------------------------------------- -->
 
   <section>
-    <h1 class="TITRES">Art Culinaire</h1>
-    <div class="Culinaire"  id="text">
+    <h1 class="TITRES" id="Culinaire">Art Culinaire</h1>
+    <div class="text"  >
       <article>
         <div class="centrer-texte">
         </div>
         <img src="../images/Accueil Libye/13-Libyan-Couscous.jpg" alt="couscous" />
       </article>
       <article>
-        <h3 id="couscous">Couscous Libyen</h3>
-        <p>le couscous est aussi une affaire libyenne. Après un demi-siècle de dictature et de chaos, les Libyens
+        <h3 id="couscous">Couscous Libyen</h3><br>
+        <p class="pr">le couscous est aussi une affaire libyenne. Après un demi-siècle de dictature et de chaos, les Libyens
           aspirent à une reconnaissance internationale pour leur patrimoine gastronomique et culturel. Sur le site du
           théâtre antique romain de Sabratha, à environ 70 kilomètres à l'ouest de la capitale Tripoli, des dizaines de
           cuisiniers s'activent : dans quelques heures, ils présenteront au public un couscous géant, spécialité berbère
@@ -79,7 +163,7 @@
     </div>
   </section>
   <section>
-    <div class="CulinaireR1" id="text">
+    <div class="text" >
       <article>
         <h3 id="friands">Friands Libyens au thon</h3>
         <div class="centrer-texte">
@@ -96,19 +180,75 @@
     </div>
   </section>
   <section>
+          <!--------------------------------------------------        Littérature       ----------------------------------------------------- -->
+
+   
+  <section class="section">
+    <h1 class="TITRES" id="Litterature">Littérature</h1>
+    <div class="text"  >
+      <article>
+        <div class="centrer-texte">
+        </div>
+        <img src="../images/Accueil Libye/img1.JPG" alt="Sulayman al-Baruni"  class="imgl">
+      </article>
+      <article>
+        <h3 id="couscous">Sulayman al-Baruni</h3><br>
+        <p class="pr"> Sulayman al-Baruni est un Ibadiérudit, poète, homme d'État. Al-Baruni est né dans le Jabal Nafusa dans ce qui était alors le vilayet de Tripolitainia, qui fait
+          partie de l'Empire ottoman, vers 1870. Il est né d'une famille berbère influente qui appartenait à la
+          secte Ibadi de l'Islam. Son père, Abd Allah al-Baruni, était juriste, poète et théologien.
+          En 1887, il a commencé ses études à l'Université d'Ez-zitouna en Tunisie, où figuraient parmi ses
+          professeurs les réformateurs, Muhammad al-Nakhli et Uthman al-makki.
+          <br />
+          <br />
+          Il est mort le 1er mai 1940 alors qu'il se rendait à Mumbai en compagnie du sultan d'Oman, Said bin
+          Taimur.
+          Après sa mort, sa fille, 'a'ima bint Sulayman, a rassemblé certains de ses articles et les a publiés à
+          Tripoli en 1964 sous le titre Safahat khalida min al-jihad li'l-mujahid al-Libi Sulayman al-Baruni. </p>
+      </article>
+    </div>
+  </section>
+  <section>
+    <div class="text" >
+      <article>
+        <h3 id="friands">Huda El-Sarari</h3>
+        <div class="centrer-texte">
+          <p>
+            Huda El-Sarari ou Hoda El-Sarari, née le 16 juin 1974, est une journaliste, poète et directrice de télévision
+              libyenne. Elle dirige la chaîne 218TV, la plus populaire de Libye.
+              Elle est une des premières femmes libyennes à figurer dans les classements arabes et mondiaux des
+              personnalités arabes influentes.
+          <br />
+          <br />
+             Sarari est née en 1974 à Tobrouk où elle grandit et étudie l'administration des affaires. Elle commence sa
+              carrière dans les médias au début de 1999 en tant que reporter pour le quotidien londonien Al-Arab (créé par un
+              Libyen bien des années auparavant, en 1977) , puis en tant que rédactrice pour le quotidien koweïtien Al-Qabas
+              entre 2000 et 2002. En 2003, elle épouse l'écrivain et journaliste dissident libyen Mujahid al-Busaifi, qui a
+              passé plus de dix ans comme réfugié politique aux Pays-Bas en raison de ses critiques à l'égard du régime de
+              Kadhafi.
+      
+              oeuvres : Al-Mutakhif, Al-Fasal et Jawahi. Un recueil de poèmes est publié en arabe sous le titre Times of
+              Sorrow.
+            <br />
+          </p>
+          <img src="../images/Accueil Libye/Huda_El-Sarari.jpg"width="650" alt="friands au thon" class="imgl">
+        </div>
+      </article>
+    </div>
+  </section>
+  <section>
           <!--------------------------------------------------        Tourisme       ----------------------------------------------------- -->
 
     <article>
-      <h1 class="TITRES">Tourisme</h1>
+      <h1 class="TITRES" id="tourisme1">Architecture et Monuments</h1>
       <br /> <br />
-      <h3 id="tourisme1">Leptis Magna</h3>
+      <h3 id="tourisme2">Leptis Magna</h3>
       <br />
       <iframe width="560" height="315" src="https://www.youtube.com/embed/ITzu0GJymyM?si=AnKHxUHXZ71g9RBG"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
       <br />
-      <div class="Culinaire" id="text">
+      <div class="text">
         <div id="t1">
           <p>Magna ou Lepcis Magna était une des villes importantes de la république de Carthage avant qu'elle ne
             passe, à l'issue de la 3ème guerre punique, sous l'autorité de la République romaine. Cette ville est
@@ -133,7 +273,7 @@
       <br />
       <!-- METTRE IMAGE  -->
       <br />
-      <div class="Culinaire" id="text">
+      <div class="text">
         <div id="t1">
           <p>Magna ou Lepcis Magna était une des villes importantes de la république de Carthage avant qu'elle ne
             passe, à l'issue de la 3ème guerre punique, sous l'autorité de la République romaine. Cette ville est
@@ -155,9 +295,9 @@
 
       <!--------------------------------------------------        Musique       ----------------------------------------------------- -->
 
-      <h1 class="TITRES">Musique</h1>
+      <h1 class="TITRES" id="musique">Musique</h1>
       <br />
-      <img src="../img/musiquelibye.jpg" class="imgm"> 
+      <img src="../images/Accueil Libye/musiquelibye.jpg" class="imgm"> 
       <br> <br>
       <div id="t1">La Libye possède aussi un patrimoine musical spécifique très riche. En effet, les arts musicaux berbères dans
           le djebel Nefousa, bédouins et touaregs sont très variés et la danse y tient une grande place, au point que l'on
