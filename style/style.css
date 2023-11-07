@@ -461,7 +461,7 @@ margin-right: 10%;
   /* width: 30%; */
   height: 400px;
   border-radius: 25%;
-margin: 3%;  
+  margin-left: 9%;
 }
 
 .litt{
@@ -481,6 +481,6 @@ margin: 3%;
 .musique{
   text-align: right;
 float: right;
-  width: 60%;
+  width: 45%;
   margin-right: 9%;
 }
