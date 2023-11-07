@@ -116,24 +116,25 @@ body {
     margin-left: 50px;
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
     border-radius: 35%;
-    width: 400px;
+    width: 30%;
     height: 300px;
-    float: left;
     
 }
 .cuisine3 {
     padding: 50px;
-    width: 600px;
+    width: 45%;
     margin: auto;
     font-family: cursive;
     font-size: 30px;
     text-align: center;
     border-radius: 150px;
     background: linear-gradient( #fdd873 ,#f4cece, #ffff);
-    float: right;
 
 }
-
+.last{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /* New CSS  */

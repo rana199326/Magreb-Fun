@@ -124,7 +124,6 @@ body {
     border-radius: 35%;
     width: 30%;
     height: 300px;
-    float: left;
     
     
 }
@@ -137,8 +136,12 @@ body {
     border-radius: 150px;
     font-size: larger;
     background: linear-gradient( #fdd873 ,#f4cece, #ffff);
-    float: right;
 
+}
+
+.last{
+  display: flex;
+  justify-content: space-between;
 }
 .image{
     display: flex;
