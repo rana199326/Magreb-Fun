@@ -249,7 +249,12 @@
     .TITRES {
       display: flex;
       justify-content: center;
+      border: #242424;
     }
+   .black{
+    color: black;
+    margin-left: 2%;
+   }
     #couscous {
       display: flex;
       margin-left: 300px
