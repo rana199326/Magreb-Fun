@@ -459,6 +459,29 @@ margin-right: 10%;
   display: flex;
 }
 .aberama img{
-  width: 30%;
-  height: 500px;
+  /* width: 30%; */
+  height: 400px;
+  border-radius: 25%;
+margin: 3%;  
+}
+
+.litt{
+  font-size: 25px;
+  font-family: "Satisfy", cursive;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.aha{
+  justify-content: space-between;
+  display: flex;
+}
+.aha img{
+  width: 450px;
+  margin: 3%;
+}
+.musique{
+  text-align: right;
+float: right;
+  width: 60%;
+  margin-right: 9%;
 }
