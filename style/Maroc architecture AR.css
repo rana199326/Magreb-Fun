@@ -73,6 +73,11 @@ body {
       width: 24.33%;
     }
   }
+  a {
+    color: #242424;
+  
+    text-decoration: none;
+  }
   
 
 /* New CSS  */
