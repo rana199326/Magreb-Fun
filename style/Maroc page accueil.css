@@ -1,3 +1,11 @@
+body{
+  background: white;
+}
+.hautPage{
+text-align: center;
+background-color: white;
+height: 50px ;
+}
 .accueil-photos {
     text-align: center;
     background-color: white;
@@ -9,7 +17,7 @@
     margin: 20px 0;
     color: #242424;
     text-align: center;
-    margin-bottom: 20px; 
+    margin-bottom: 50px; 
   }
   
   .accueil-photos div {
