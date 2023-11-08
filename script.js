@@ -88,7 +88,7 @@ function maps(pays) {
       document.getElementById("mapbtn").style.display = 'block';
       document.getElementById("nameCounty").innerText = pays;
       break;
-    case 'mauritanie':
+    case 'mauriranie':
       document.getElementById("mapmauritanie").style.display = 'block'
       document.getElementById("map").style.display = 'none';
       document.getElementById("mapbtn").style.display = 'block';
