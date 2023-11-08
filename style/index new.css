@@ -299,7 +299,7 @@
     
   }
 
-  .dropbtn {
+  /* .dropbtn {
     background-color: #ffffff;
     color: rgb(27, 25, 25);
     padding: 16px;
@@ -337,7 +337,7 @@
   
   .dropdown:hover .dropbtn {
     background-color: #5560b5;
-  }
+  } */
 .navnav{
     width: 100%;
 }
