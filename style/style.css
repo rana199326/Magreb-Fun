@@ -486,5 +486,13 @@ margin-right: 10%;
   text-align: right;
 float: right;
   width: 45%;
+<<<<<<< HEAD
+=======
+  width: 45%;
+}
+#theatre{
+  
+  width: 50%;
+>>>>>>> 111737d3e60d9541d9d4ebd05872326f67854f27
   margin-right: 9%;
 }

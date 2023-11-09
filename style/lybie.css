@@ -1,3 +1,8 @@
+.hautPage{
+  text-align: center;
+  background-color: white;
+  height: 80px ;
+  }
 .accueil-photos {
     text-align: center;
     background-color: white;
@@ -32,6 +37,9 @@
     position: relative;
     overflow: hidden;
     
+  }
+  .image-container{
+    height: 300px;
   }
   
   .accueil-photos .image-text {

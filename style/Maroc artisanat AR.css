@@ -63,7 +63,11 @@ p,h3 {
     font-size: 32px;
     text-align: right;
 }
+a {
+  color: #242424;
 
+  text-decoration: none;
+}
 
 
 /* New CSS  */

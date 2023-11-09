@@ -129,7 +129,11 @@ body {
   margin-top: 5%;
 }
 
+a {
+  color: #242424;
 
+  text-decoration: none;
+}
 
 /* @media screen and (max-width: 500px) {
  p {

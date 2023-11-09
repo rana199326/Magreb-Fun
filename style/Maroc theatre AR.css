@@ -39,6 +39,11 @@ body {
       width: 100%;
     }
 }
+a {
+  color: #242424;
+
+  text-decoration: none;
+}
 
  /* New CSS  */
  
