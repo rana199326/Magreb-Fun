@@ -341,7 +341,46 @@
 
 
 
-  <script src="../script.js"></script>
+  <script>
+    
+    const link = document.querySelectorAll('.switch');
+      const titleEl = document.querySelector('.title');
+      const descrEl = document.querySelector('.description');
+      const togBtn = document.querySelector('#togBtn');
+      
+      link.forEach(el => {
+          el.addEventListener('click', () => {
+            if (togBtn.checked == true) {
+            } else {
+              document.location.assign('PageaccueuilMauritanueArabe.html')
+              document.location.assign('PageaccueuilMAuritanie.html')
+            }
+
+        titleEl.textContent = data[attr].title;
+        descrEl.textContent = data[attr].description;
+    });
+});
+var data = {
+  "français":
+  {
+      "title": "PageaccueuilMauritanie.html"
+    
+
+  },
+  "عربي":
+  {
+      "title": "PageaccueuilMauritanieArabe.html"
+    
+
+  }
+}
+
+const icon = document.querySelector('.icon');
+const search = document.querySelector('.search');
+icon.onclick = function(){
+  search.classList.toggle('active')
+}
+  </script>
 </body>
 
 </html>
