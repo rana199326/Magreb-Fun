@@ -193,13 +193,13 @@
     }
   
   body {
-    font-family: "Manrope", sans-serif;
+    /* font-family: "Manrope", sans-serif; */
   
-    font-size: 1em;
+    /* font-size: 1em; */
   
-    background-color:rgb(128, 73, 73);
+    background-color:rgb(153, 111, 111)
   
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   
   a {
@@ -208,7 +208,7 @@
     text-decoration: none;
   }
   
-  em {
+  /* em {
     color: #a5b4fc;
   
     font-style: normal;
@@ -231,7 +231,7 @@
     font-size: 1.1em;
   
     color: #f9f8ff;
-  }
+  } */
   
   header {
     background-color: white;
@@ -300,13 +300,13 @@
     margin-left: 30px;
   }
   
-  .texte {
+  /* .texte {
     text-align: justify;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
-  }
+  } */
   
   @media screen and (max-width: 996px) {
     header nav {
@@ -348,19 +348,28 @@
   h1 {
     font-size: 25px;
     text-align: center;
+    color: black;
+  
+    
+  }
+  #cuisine {
+    font-size: 250%;
   }
   .ngoummou {
     display: flex;
     justify-content: space-between;
+    margin: 5%;
   }
   .ngoummou img {
     width: 30%;
     height: 15%;
+    border-radius: 5%;
   }
   .bouffe1 {
     display: flex;
     justify-content: space-between;
     font-family: "Satisfy", cursive;
+    margin: 5%;
   }
   .bouffe1 p {
     width: 30%;
@@ -369,10 +378,15 @@
     border-top: 6px;
   }
   .zikmu {
-    font-family:cursive
-    text-align left;
-    margin-left: 4%;
-    margin-right: 4%;
+    padding: 2%;
+    font-family:cursive;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #242424;
+    font-weight: bold;
+    font-size: large;
+    /* margin-left: 4%;
+    margin-right: 4%; */
     /* border: 205px; */
     /* margin-right: 30px; */
     /* border-radius: 20px; */
@@ -382,14 +396,18 @@
     /* width: 40%; */
   }
   
-  /* .description {
-     width: 40%; 
-     text-align: right; 
-     margin-left: auto;
-    margin-right: 20px; }  */
+  .description {
+
+    padding: 2%;
+     margin-left:5%;
+    font-family: cursive;
+    color: #242424;
+    font-weight: bold;
+    font-size: large;
+  } 
   #titre {
     border: 20%;
-    margin: 5%;
+    /* margin: 5%; */
     padding: 2px;
     font-size: 250%;
     color: black;
@@ -400,15 +418,13 @@
     align-items: center;
   }
   
-  /* .flex {
-    display: flex;
-  } */
-  
   .instru {
-    /* text-align: left; */
-    width: 55%;
-    /* float: right; */
-    margin-right: 5%  ;
+    padding: 2%;
+    margin-left: 5%;
+    font-family: cursive;
+    color: #242424;
+    font-weight: bold;
+    font-size: large;
   }
   #derbouka{
     margin-left: 4%;
@@ -425,34 +441,44 @@
   .muz{
     text-align: right;
     margin-right: 8%;
+    border-radius: 50px;
+    text-align: center;
   }
-  .muz{
-    border-radius: 10px;
-  }
+  .fig{
+    color:#242424;
+    font-weight: bolder;
+}
+ 
   .arch{
     border-radius: 20px;
-    margin-left: 7%;
+    margin:5%;
+
     
   }
   .descriptionarch{
     margin-left: 6%;
   }
   .noua{
-    width: 85%;
-    margin-left: 9%;
+    width: 60%;
     border-radius: 20px;
-  }
+    margin-left: 20%;
+}
   .desc2{
-  text-align: left;
   float: right;
   margin-left: 15%;
-  margin-right: 10%;
+  margin-top: 6%;
+  font-family: cursive;
+  color: #242424;
    
     
   }
   
   #titrearch{
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    text-align: center;
+    font-family: cursive;
+    color: #242424;
+    margin-bottom: 3%;
   }
   
   #archimonu{
@@ -470,25 +496,31 @@
     margin-left: 9%;
   }
   
-  .litt{
+  #livre{
     font-size: 25px;
-    font-family: "Satisfy", cursive;
+    font-family: cursive;
     margin-left: 4%;
     margin-right: 4%;
+    color: #242424;
+    font-weight: bold;
   }
   .aha{
     justify-content: space-between;
     display: flex;
+    margin: 5%;
   }
   .aha img{
     width: 450px;
     margin: 3%;
+    border-radius: 10%;
   }
-  .musique{
-    text-align: right;
-  float: right;
-    width: 45%;
+  #theatre{
+  text-align: left;
+   float: right;
+    width: 50%;
     margin-right: 9%;
+    font-family: cursive;
+    color: #242424;
   }
   .description{
     margin-left: 4%;
