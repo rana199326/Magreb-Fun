@@ -87,7 +87,7 @@ console.log(togBtn.checked);
 link.forEach(el => {
     el.addEventListener('click', () => {
       if (togBtn.checked == true) {
-        document.location.assign('index AR.html')
+        document.location.assign('html/index AR.html')
       } else {
         document.location.assign('index new.html')
       }
